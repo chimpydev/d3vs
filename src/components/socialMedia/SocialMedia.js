@@ -1,6 +1,6 @@
 import React from "react";
 import "./SocialMedia.css";
-import { socialMediaLinks } from "../../portfolio";
+import { socialMediaLinksFarao, socialMediaLinksTuts, socialMediaLinksKell } from "../../portfolio";
 import styled from "styled-components";
 
 const IconWrapper = styled.span`
@@ -13,10 +13,10 @@ const IconWrapper = styled.span`
   }
 `;
 
-export default function socialMedia(props) {
+export default function socialMediaFarao(props) {
   return (
     <div className="social-media-div">
-      {socialMediaLinks.map((media) => {
+      {socialMediaLinksFarao.map((media) => {
         return (
           <a
             href={media.link}

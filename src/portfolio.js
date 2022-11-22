@@ -30,7 +30,7 @@ const greeting = {
   githubProfile: "https://github.com/ashutosh1919",
 };
 
-const socialMediaLinks = [
+const socialMediaLinksFarao = [
   /* Your Social Media Link */
   // github: "https://github.com/ashutosh1919",
   // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
@@ -53,10 +53,52 @@ const socialMediaLinks = [
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "YouTube",
-    link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+    name: "Gmail",
+    link: "mailto:ashutoshhathidara98@gmail.com",
+    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  },
+  {
+    name: "Twitter",
+    link: "https://twitter.com/ashutosh_1919",
+    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
+    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+  },
+  {
+    name: "Telegram",
+    link: "https://www.facebook.com/laymanbrother.19/",
+    fontAwesomeIcon: "fa-telegram", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  },
+  {
+    name: "Discord",
+    link: "https://www.instagram.com/layman_brother/",
+    fontAwesomeIcon: "fa-discord", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  },
+];
+
+const socialMediaLinksKell = [
+  /* Your Social Media Link */
+  // github: "https://github.com/ashutosh1919",
+  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+  // gmail: "ashutoshhathidara98@gmail.com",
+  // gitlab: "https://gitlab.com/ashutoshhathidara98",
+  // facebook: "https://www.facebook.com/laymanbrother.19/",
+  // twitter: "https://twitter.com/ashutosh_1919",
+  // instagram: "https://www.instagram.com/layman_brother/"
+
+  {
+    name: "Github",
+    link: "https://github.com/ashutosh1919",
+    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  },
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "Gmail",
@@ -71,15 +113,63 @@ const socialMediaLinks = [
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
   {
-    name: "Facebook",
+    name: "Telegram",
     link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+    fontAwesomeIcon: "fa-telegram", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
-    name: "Instagram",
+    name: "Discord",
     link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+    fontAwesomeIcon: "fa-discord", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  },
+];
+
+const socialMediaLinksTuts = [
+  /* Your Social Media Link */
+  // github: "https://github.com/ashutosh1919",
+  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+  // gmail: "ashutoshhathidara98@gmail.com",
+  // gitlab: "https://gitlab.com/ashutoshhathidara98",
+  // facebook: "https://www.facebook.com/laymanbrother.19/",
+  // twitter: "https://twitter.com/ashutosh_1919",
+  // instagram: "https://www.instagram.com/layman_brother/"
+
+  {
+    name: "Github",
+    link: "https://github.com/ashutosh1919",
+    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  },
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
+  },
+  {
+    name: "Gmail",
+    link: "mailto:ashutoshhathidara98@gmail.com",
+    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  },
+  {
+    name: "Twitter",
+    link: "https://twitter.com/ashutosh_1919",
+    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
+    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+  },
+  {
+    name: "Telegram",
+    link: "https://www.facebook.com/laymanbrother.19/",
+    fontAwesomeIcon: "fa-telegram", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  },
+  {
+    name: "Discord",
+    link: "https://www.instagram.com/layman_brother/",
+    fontAwesomeIcon: "fa-discord", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
 ];
@@ -87,7 +177,7 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Web2 Development",
       fileName: "DataScienceImg",
       skills: [
         "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
@@ -696,9 +786,21 @@ const publications = {
 
 // Contact Page
 const contactPageData = {
-  contactSection: {
-    title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+  contactSectionPharaoh: {
+    title: "Bernardo",
+    profile_image_path: "farao.png",
+    description:
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+  },
+  contactSectionKellKell: {
+    title: "Kell",
+    profile_image_path: "tuts.png",
+    description:
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+  },
+  contactSectionTuts: {
+    title: "Tutacamôm",
+    profile_image_path: "kell.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
@@ -726,7 +828,9 @@ export {
   settings,
   seo,
   greeting,
-  socialMediaLinks,
+  socialMediaLinksFarao,
+  socialMediaLinksKell,
+  socialMediaLinksTuts,
   skills,
   competitiveSites,
   degrees,

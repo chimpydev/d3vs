@@ -10,7 +10,10 @@ import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 
-const ContactData = contactPageData.contactSection;
+const ContactDataPharaoh = contactPageData.contactSectionPharaoh;
+const ContactDataKellKell = contactPageData.contactSectionKellKell;
+const ContactDataTuts = contactPageData.contactSectionTuts;
+
 const blogSection = contactPageData.blogSection;
 const addressSection = contactPageData.addressSection;
 const phoneSection = contactPageData.phoneSection;
@@ -22,11 +25,13 @@ class Contact extends Component {
       <div className="contact-main">
         <Header theme={theme} />
         <div className="basic-contact">
+          
+          {/* PHARAOH SECTION */}
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
                 <img
-                  src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                  src={require(`../../assests/images/${ContactDataPharaoh["profile_image_path"]}`)}
                   alt=""
                 />
               </div>
@@ -35,13 +40,13 @@ class Contact extends Component {
                   className="contact-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {ContactData["title"]}
+                  {ContactDataPharaoh["title"]}
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {ContactData["description"]}
+                  {ContactDataPharaoh["description"]}
                 </p>
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
@@ -55,36 +60,77 @@ class Contact extends Component {
               </div>
             </div>
           </Fade>
+
+          {/* KELL SECTION */}
           <Fade bottom duration={1000} distance="40px">
-            <div className="blog-heading-div">
-              <div className="blog-heading-text-div">
-                <h1 className="blog-heading-text" style={{ color: theme.text }}>
-                  {blogSection["title"]}
+            <div className="contact-heading-div">
+            <div className="contact-heading-text-div">
+                <h1
+                  className="contact-heading-text"
+                  style={{ color: theme.text }}
+                >
+                  {ContactDataKellKell["title"]}
                 </h1>
                 <p
-                  className="blog-header-detail-text subTitle"
+                  className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {blogSection["subtitle"]}
+                  {ContactDataKellKell["description"]}
                 </p>
-                <div className="blogsite-btn-div">
+                <SocialMedia theme={theme} />
+                <div className="resume-btn-div">
                   <Button
-                    text="Visit My Blogsite"
+                    text="See My Resume"
                     newTab={true}
-                    href={blogSection.link}
+                    href={greeting.resumeLink}
                     theme={theme}
                   />
                 </div>
               </div>
-              <div className="blog-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <BlogsImg theme={theme} />
+              <div className="contact-heading-img-div">
+                <img
+                  src={require(`../../assests/images/${ContactDataKellKell["profile_image_path"]}`)}
+                  alt=""
+                />
               </div>
             </div>
           </Fade>
+
+          {/* TUTS SECTION */}
+          <Fade bottom duration={1000} distance="40px">
+            <div className="contact-heading-div">
+              <div className="contact-heading-img-div">
+                <img
+                  src={require(`../../assests/images/${ContactDataTuts["profile_image_path"]}`)}
+                  alt=""
+                />
+              </div>
+              <div className="contact-heading-text-div">
+                <h1
+                  className="contact-heading-text"
+                  style={{ color: theme.text }}
+                >
+                  {ContactDataTuts["title"]}
+                </h1>
+                <p
+                  className="contact-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  {ContactDataTuts["description"]}
+                </p>
+                <SocialMedia theme={theme} />
+                <div className="resume-btn-div">
+                  <Button
+                    text="See My Resume"
+                    newTab={true}
+                    href={greeting.resumeLink}
+                    theme={theme}
+                  />
+                </div>
+              </div>
+            </div>
+          </Fade>
+
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
