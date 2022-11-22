@@ -77,7 +77,7 @@ export default function Projects() {
       <Button
         text={"More Projects"}
         className="project-button"
-        href={greeting.githubProfile}
+        href="https://github.com/chimpydev"
         newTab={true}
       />
     </div>

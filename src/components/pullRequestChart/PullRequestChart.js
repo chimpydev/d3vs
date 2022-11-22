@@ -7,7 +7,7 @@ import PullRequestData from "../../shared/opensource/pull_requests.json";
 class PullRequestChart extends Component {
   render() {
     const data = {
-      labels: ["Open", "Merged", "Closed"],
+      labels: ["Web2", "Web3", "Digital Marketing", "Ecommerce Development", "Auditing"],
       datasets: [
         {
           data: [
@@ -24,7 +24,7 @@ class PullRequestChart extends Component {
     return (
       <div className="pr-chart">
         <Fade bottom duration={2000} distance="20px">
-          <h2 className="pr-chart-header">Pull Request Distribution</h2>
+          <h2 className="pr-chart-header" style={{ color: "#FFFFFF"}}>Services done by category</h2>
         </Fade>
         <Doughnut
           data={data}

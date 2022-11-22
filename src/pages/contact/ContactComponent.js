@@ -3,6 +3,8 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
+import SocialMedia2 from "../../components/socialMedia/SocialMedia2";
+import SocialMedia3 from "../../components/socialMedia/SocialMedia3";
 import Button from "../../components/button/Button";
 import BlogsImg from "./BlogsImg";
 import AddressImg from "./AddressImg";
@@ -77,7 +79,7 @@ class Contact extends Component {
                 >
                   {ContactDataKellKell["description"]}
                 </p>
-                <SocialMedia theme={theme} />
+                <SocialMedia2 theme={theme} />
                 {/* <div className="resume-btn-div">
                   <Button
                     text="See My Resume"
@@ -118,7 +120,7 @@ class Contact extends Component {
                 >
                   {ContactDataTuts["description"]}
                 </p>
-                <SocialMedia theme={theme} />
+                <SocialMedia3 theme={theme} />
                 {/* <div className="resume-btn-div">
                   <Button
                     text="See My Resume"

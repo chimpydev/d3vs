@@ -30,7 +30,7 @@ export default function Greeting(props) {
                 <Button
                   text="Tell us about your project"
                   newTab={true}
-                  href={greeting.portfolio_repository}
+                  href="mailto:team@d3vs.xyz"
                   theme={theme}
                   className="portfolio-repo-btn"
                 />

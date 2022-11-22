@@ -13,10 +13,10 @@ const IconWrapper = styled.span`
   }
 `;
 
-export default function socialMediaFarao(props) {
+export default function socialMediaKell(props) {
   return (
     <div className="social-media-div">
-      {socialMediaLinksFarao.map((media) => {
+      {socialMediaLinksKell.map((media) => {
         return (
           <a
             href={media.link}

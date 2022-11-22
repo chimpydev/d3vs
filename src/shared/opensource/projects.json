@@ -62,7 +62,7 @@
             "id": "MDEwOlJlcG9zaXRvcnkxNTU5NTE3NTk=",
             "name": "Scarab Finance Website",
             "createdAt": "2018-11-03T05:00:56Z",
-            "url": "https://github.com/ashutosh1919/Stock-Prediction-using-LSTM",
+            "url": "https://scarab.finance",
             "description": "This Project is predicting stocks for 32 companies with error less than 1% using LSTM Networks.",
             "isFork": false,
             "languages": [
@@ -80,7 +80,7 @@
             "id": "MDEwOlJlcG9zaXRvcnkyMDIxNDc4ODA=",
             "name": "FoodTrucksFactory Website",
             "createdAt": "2019-08-13T13:13:00Z",
-            "url": "https://github.com/dsc-iiitdmk/Pick-Parser",
+            "url": "https://foodtrucksfactory.pt",
             "description": "This Project is to create a tool which can parse the Resumes and transform them into our own templates",
             "isFork": false,
             "languages": [
