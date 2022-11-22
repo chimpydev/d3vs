@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -186,44 +186,61 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "CSS3",
+          fontAwesomeClassname: "simple-icons:css3",
           style: {
             backgroundColor: "transparent",
+            color: "#1572B6"
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "Shopify",
+          fontAwesomeClassname: "simple-icons:shopify",
           style: {
-            backgroundColor: "white",
-            color: "#D00000",
+            backgroundColor: "transparent",
+            color: "#7AB55C",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Wordpress",
+          fontAwesomeClassname: "ion-logo-wordpress",
           style: {
             backgroundColor: "transparent",
+            color: "#0675c4",
           },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "React",
+          fontAwesomeClassname: "logos-react",
           style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
+            color: "#61dbfb",
+            backgroundColor: "transparent"
+          },
+        },
+        {
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
           },
         },
       ],
     },
     {
-      title: "Web3 Development",
+      title: "Ecommerce Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Build a platform tailored to your needs or modify existing solutions to scale your business. We’ll provide you with UX design, A/B tests, and more.",
+        "⚡ Offer multiple products from multiple sellers. Give your buyers a one-stop-shop to buy everything they need and expand the platform fast.",
+        "⚡ We’ll help you build a scalable, secure platform that will guide your buyer through a seamless purchasing process.",
       ],
       softwareSkills: [
         {
@@ -241,13 +258,6 @@ const skills = {
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
@@ -256,51 +266,25 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "Shopify",
+          fontAwesomeClassname: "simple-icons:shopify",
           style: {
-            color: "#61DAFB",
+            backgroundColor: "transparent",
+            color: "#7AB55C",
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          skillName: "Wordpress",
+          fontAwesomeClassname: "ion-logo-wordpress",
           style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
+            backgroundColor: "transparent",
+            color: "#0675c4",
           },
         },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Web3 Development",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
@@ -733,9 +717,9 @@ const projectsHeader = {
 };
 
 const publicationsHeader = {
-  title: "Publications",
+  title: "Articles",
   description:
-    "I have worked on and published a few research papers and publications of my own.",
+    "Some of the articles we've written for our clients",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -743,43 +727,43 @@ const publications = {
   data: [
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      name: "Introducing — Wavelength",
+      createdAt: "2022-10-15T16:26:54Z",
+      description: "Announcing Wavelength, the most advanced Decentralized Exchange (DEX) on Velas Blockchain.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://medium.com/@Wavelength_DAO/introducing-wavelength-63c3622853d3",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      name: "ChimpySwap Airdrop/ICO First 10 Days Recap",
+      createdAt: "2020-07-06T16:26:54Z",
+      description: "Wow! It’s been a crazy 10 days 🤯 We’ve seen tons of chimpies, and more airdrops than we can count!",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://medium.com/@chimpyswap/chimpyswap-airdrop-ico-first-10-days-recap-10044b19ffd7",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      name: "ChimpySwap Updates and Roadmap!",
+      createdAt: "2021-08-07T16:26:54Z",
+      description: "It doesn’t seem like it but it’s been a month since we started airdrop/ico.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://medium.com/@chimpyswap/chimpyswap-updates-and-roadmap-e4f5a661e2ed",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      name: "Wavelength Explained: Smart Order Router (SOR)",
+      createdAt: "2022-11-17T16:26:54Z",
+      description: "Welcome to another episode of our educational series “Wavelength Explained”.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://medium.com/@Wavelength_DAO/wavelength-explained-smart-order-router-sor-6f94a828f3b6",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      name: "Wavelength Explained: Weighted Pools",
+      createdAt: "2022-11-11T16:26:54Z",
+      description: "Welcome to our second learning session; previously, we have learned about Stable Pools.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://medium.com/@Wavelength_DAO/wavelength-explained-weighted-pools-18179bbcc352",
     },
   ],
 };

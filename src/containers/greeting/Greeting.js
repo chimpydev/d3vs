@@ -14,22 +14,21 @@ export default function Greeting(props) {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text" style={{ color: theme.text }}>
-                {greeting.title}
+              <h1 className="greeting-text" style={{ color: theme.green }}>
+                building innovative software for leaders
               </h1>
-              <h2 className="greeting-nickname" style={{ color: theme.text }}>
+             {/* <h2 className="greeting-nickname" style={{ color: theme.text }}>
                 ( {greeting.nickname} )
-              </h2>
+  </h2>*/}
               <p
                 className="greeting-text-p subTitle"
-                style={{ color: theme.secondaryText }}
+                style={{ color: theme.secondaryText, marginTop: "-10px"}}
               >
-                {greeting.subTitle}
+                web2, web3 and mobile application development
               </p>
-              <SocialMedia theme={theme} />
               <div className="portfolio-repo-btn-div">
                 <Button
-                  text="⭐ Star Me On Github"
+                  text="Tell us about your project"
                   newTab={true}
                   href={greeting.portfolio_repository}
                   theme={theme}
@@ -43,11 +42,10 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            {/* <img
+          <img
 							alt="saad sitting on table"
-							src={require("../../assests/images/feelingProud.svg")}
-						></img> */}
-            <FeelingProud theme={theme} />
+							src={require("../../assests/images/home_image.svg")}
+						></img> 
           </div>
         </div>
       </div>

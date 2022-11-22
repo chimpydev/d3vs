@@ -38,7 +38,7 @@ class Contact extends Component {
               <div className="contact-heading-text-div">
                 <h1
                   className="contact-heading-text"
-                  style={{ color: theme.text }}
+                  style={{ color: "#FFFFFF" }}
                 >
                   {ContactDataPharaoh["title"]}
                 </h1>
@@ -49,14 +49,14 @@ class Contact extends Component {
                   {ContactDataPharaoh["description"]}
                 </p>
                 <SocialMedia theme={theme} />
-                <div className="resume-btn-div">
+              {/* <div className="resume-btn-div">
                   <Button
                     text="See My Resume"
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
                   />
-                </div>
+    </div> */}
               </div>
             </div>
           </Fade>
@@ -67,7 +67,7 @@ class Contact extends Component {
             <div className="contact-heading-text-div">
                 <h1
                   className="contact-heading-text"
-                  style={{ color: theme.text }}
+                  style={{ color: "#FFFFFF" }}
                 >
                   {ContactDataKellKell["title"]}
                 </h1>
@@ -78,14 +78,14 @@ class Contact extends Component {
                   {ContactDataKellKell["description"]}
                 </p>
                 <SocialMedia theme={theme} />
-                <div className="resume-btn-div">
+                {/* <div className="resume-btn-div">
                   <Button
                     text="See My Resume"
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
                   />
-                </div>
+    </div> */}
               </div>
               <div className="contact-heading-img-div">
                 <img
@@ -108,7 +108,7 @@ class Contact extends Component {
               <div className="contact-heading-text-div">
                 <h1
                   className="contact-heading-text"
-                  style={{ color: theme.text }}
+                  style={{ color: "#FFFFFF" }}
                 >
                   {ContactDataTuts["title"]}
                 </h1>
@@ -119,14 +119,14 @@ class Contact extends Component {
                   {ContactDataTuts["description"]}
                 </p>
                 <SocialMedia theme={theme} />
-                <div className="resume-btn-div">
+                {/* <div className="resume-btn-div">
                   <Button
                     text="See My Resume"
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
                   />
-                </div>
+    </div> */}
               </div>
             </div>
           </Fade>
@@ -143,7 +143,7 @@ class Contact extends Component {
               <div className="address-heading-text-div">
                 <h1
                   className="address-heading-text"
-                  style={{ color: theme.text }}
+                  style={{ color: theme.green }}
                 >
                   {addressSection["title"]}
                 </h1>

@@ -29,7 +29,7 @@ class Header extends Component {
               <img
                 src={LogoImage}
                 width="25" height="25"
-              />              <span className="logo-name" style={{ color: theme.text }}>
+              />              <span className="logo-name" style={{ color: "#FFFFFF" }}>
                 {greeting.logo_name}
               </span>
             </NavLink>
@@ -43,7 +43,7 @@ class Header extends Component {
                   to="/home"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
+                  style={{ color: theme.highlight }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
@@ -52,22 +52,10 @@ class Header extends Component {
               </li>
               <li>
                 <NavLink
-                  to="/experience"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Experience
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
                   to="/projects"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
+                  style={{ color: theme.highlight }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
@@ -79,7 +67,7 @@ class Header extends Component {
                   to="/education"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
+                  style={{ color: theme.highlight }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
@@ -91,7 +79,7 @@ class Header extends Component {
                   to="/opensource"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
+                  style={{ color: theme.highlight }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
@@ -103,7 +91,7 @@ class Header extends Component {
                   to="/contact"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
+                  style={{ color: theme.highlight }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >

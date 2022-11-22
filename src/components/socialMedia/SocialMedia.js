@@ -34,3 +34,47 @@ export default function socialMediaFarao(props) {
     </div>
   );
 }
+
+export default function socialMediaKell(props) {
+  return (
+    <div className="social-media-div">
+      {socialMediaLinksKell.map((media) => {
+        return (
+          <a
+            href={media.link}
+            className={`icon-button`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IconWrapper {...media} {...props}>
+              <i className={`fab ${media.fontAwesomeIcon}`}></i>
+            </IconWrapper>
+            {/* <span></span> */}
+          </a>
+        );
+      })}
+    </div>
+  );
+}
+
+export default function socialMediaTuts(props) {
+  return (
+    <div className="social-media-div">
+      {socialMediaLinksTuts.map((media) => {
+        return (
+          <a
+            href={media.link}
+            className={`icon-button`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IconWrapper {...media} {...props}>
+              <i className={`fab ${media.fontAwesomeIcon}`}></i>
+            </IconWrapper>
+            {/* <span></span> */}
+          </a>
+        );
+      })}
+    </div>
+  );
+}

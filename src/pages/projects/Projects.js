@@ -35,7 +35,7 @@ class Projects extends Component {
               <div className="projects-heading-text-div">
                 <h1
                   className="projects-heading-text"
-                  style={{ color: theme.text }}
+                  style={{ color: theme.green }}
                 >
                   {projectsHeader.title}
                 </h1>
@@ -70,7 +70,7 @@ class Projects extends Component {
                 <div className="publications-heading-text-div">
                   <h1
                     className="publications-heading-text"
-                    style={{ color: theme.text }}
+                    style={{ color: theme.green }}
                   >
                     {publicationsHeader.title}
                   </h1>

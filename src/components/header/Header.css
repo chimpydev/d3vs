@@ -34,6 +34,9 @@
   display: block;
   float: left;
   font-size: 1.5em;
+  flex-direction: row;
+  display: flex;
+  align-items:center;
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;

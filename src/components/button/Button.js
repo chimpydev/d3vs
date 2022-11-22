@@ -22,11 +22,11 @@ export default function Button({ text, className, href, newTab, theme }) {
         target={newTab && "_blank"}
         style={{
           color: theme.body,
-          backgroundColor: theme.text,
+          backgroundColor: theme.highlight,
           border: `solid 1px ${theme.text}`,
         }}
-        onMouseEnter={(event) => onMouseEnter(event, theme.text, theme.body)}
-        onMouseOut={(event) => onMouseOut(event, theme.body, theme.text)}
+        onMouseEnter={(event) => onMouseEnter(event, theme.text, "#64f9c8")}
+        onMouseOut={(event) => onMouseOut(event, theme.body, theme.highlight)}
       >
         {text}
       </a>
