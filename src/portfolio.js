@@ -7,20 +7,20 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "D3vs - Web Development Services",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Web3, Web2, Digital Marketing, Auditing",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "D3vs - Web Development Services",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://D3vs.xyz",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "d3vs",
-  logo_name: "d3vs",
+  title: "D3vs",
+  logo_name: "D3vs",
   nickname: "layman_brother",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
@@ -48,7 +48,7 @@ const socialMediaLinksFarao = [
   },
   {
     name: "Gmail",
-    link: "mailto:bernardo@d3vs.xyz",
+    link: "mailto:bernardo@D3vs.xyz",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -84,7 +84,7 @@ const socialMediaLinksKell = [
   },
   {
     name: "Gmail",
-    link: "mailto:kell@d3vs.xyz.com",
+    link: "mailto:kell@D3vs.xyz.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -114,7 +114,7 @@ const socialMediaLinksTuts = [
   },
   {
     name: "Gmail",
-    link: "mailto:tuts@d3vs.xyz",
+    link: "mailto:tuts@D3vs.xyz",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -245,10 +245,10 @@ const skills = {
       title: "Web3 Development",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Our experience with small screens comes in handy in a world where the majority of web traffic is on mobile.",
+        "⚡ Our web team builds responsive sites that elegantly work across desktop and mobile, leveraging the same robust backend services we use for our apps.",
+        "⚡ We build and audit smart contracts, facilitate fast and secure crypto payments and enable oracles.",
+        "⚡ We create visual identities and develop secure no-cms solutions.l",
       ],
       softwareSkills: [
         {
@@ -562,7 +562,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "Our projects makes use of vast variety of latest technology tools. Our best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -624,19 +624,19 @@ const contactPageData = {
     title: "Bernardo",
     profile_image_path: "farao.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Proficient in software development and specializing in digital asset smart contracts. Co-founded and was appointed CEO in 2 different Web3 Projects with a combined TVL at peak of $29M. During which time, Bernardo accumulated a wealth of experience within the Web3 environment and spear-headed campaigns focused on scalable, flexible solutions.",
   },
   contactSectionKellKell: {
     title: "Kell",
     profile_image_path: "tuts.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Talented full-stack developer of 15 years and proficient in: JavaScript, TypeScript, React, Wordpress, MongoDB.  He has extremely strong analytic and management skills both in the crypto world and business world.",
   },
   contactSectionTuts: {
     title: "Tutacamôm",
     profile_image_path: "kell.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Experienced full-stack developer of 8 years and proficient in: JavaScript, TypeScript, React, Solidity, GraphQL. Took a leading role in building scaleable, innovative decentralized solutions with a commitment to quality modern application designs.",
   },
   blogSection: {
     title: "Blogs",

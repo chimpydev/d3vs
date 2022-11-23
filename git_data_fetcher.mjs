@@ -156,6 +156,9 @@ fetch(baseUrl, {
     cropped["open"] = open;
     cropped["closed"] = closed;
     cropped["merged"] = merged;
+    PullRequestData["digitalMarketing"] = digitalMarketing,
+    PullRequestData["ecommerceDev"] = ecommerceDev,
+    PullRequestData["auditing"] = auditing
     cropped["totalCount"] = cropped["data"].length;
 
     console.log("Fetching the Pull Request Data.\n");

@@ -161,7 +161,7 @@ export const materialDarkTheme = {
   highlight: "#e1e1e1",
   dark: "#000a12",
   secondaryText: "#aeaeae",
-  imageHighlight: "#607d8b",
+  imageHighlight: "#b8f081",
   compImgHighlight: "#E6E6E6",
   jacketColor: "#8eacbb",
   headerColor: "#34515e",

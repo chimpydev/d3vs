@@ -6,7 +6,6 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import SocialMedia2 from "../../components/socialMedia/SocialMedia2";
 import SocialMedia3 from "../../components/socialMedia/SocialMedia3";
 import Button from "../../components/button/Button";
-import BlogsImg from "./BlogsImg";
 import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
@@ -168,12 +167,13 @@ class Contact extends Component {
                   {phoneSection["subtitle"]}
                 </p>
                 <div className="address-btn-div">
-                  <Button
-                    text="Visit on Google Maps"
-                    newTab={true}
-                    href={addressSection.location_map_link}
-                    theme={theme}
-                  />
+                <Button
+                  text="Tell us about your project"
+                  newTab={true}
+                  href="mailto:team@D3vs.xyz"
+                  theme={theme}
+                  className="portfolio-repo-btn"
+                />
                 </div>
               </div>
             </div>

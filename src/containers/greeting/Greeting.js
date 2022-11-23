@@ -15,7 +15,7 @@ export default function Greeting(props) {
           <div className="greeting-text-div">
             <div>
               <h1 className="greeting-text" style={{ color: theme.green }}>
-                building innovative software for leaders
+                Building innovative software for leaders
               </h1>
              {/* <h2 className="greeting-nickname" style={{ color: theme.text }}>
                 ( {greeting.nickname} )
@@ -24,13 +24,13 @@ export default function Greeting(props) {
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText, marginTop: "-10px"}}
               >
-                web2, web3 and mobile application development
+                Web2, web3 and mobile application development
               </p>
               <div className="portfolio-repo-btn-div">
                 <Button
                   text="Tell us about your project"
                   newTab={true}
-                  href="mailto:team@d3vs.xyz"
+                  href="mailto:team@D3vs.xyz"
                   theme={theme}
                   className="portfolio-repo-btn"
                 />

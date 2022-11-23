@@ -14,9 +14,12 @@ class PullRequestChart extends Component {
             PullRequestData["open"],
             PullRequestData["merged"],
             PullRequestData["closed"],
+            PullRequestData["digitalMarketing"],
+            PullRequestData["ecommerceDev"],
+            PullRequestData["auditing"]
           ],
-          backgroundColor: ["#28a745", "#6f42c1", "#d73a49"],
-          hoverBackgroundColor: ["#28a745dd", "#6f42c1dd", "#d73a49dd"],
+          backgroundColor: ["#28a745", "#6f42c1", "#d73a49", "#fcfc59", "#1190b3", "#42c45b"],
+          hoverBackgroundColor: ["#28a745dd", "#6f42c1dd", "#d73a49dd", "#fcfc59dd", "#1190b3dd","#42c45bdd"],
         },
       ],
     };

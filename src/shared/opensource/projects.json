@@ -10,15 +10,20 @@
             "languages": [
                 {
                     "name": "TypeScript",
-                    "iconifyClass": "logos-typescript"
+                    "iconifyClass": "simple-icons:typescript",
+                    "style": {"color": "#3178C6"}
                 },
                 {
-                    "name": "JavaScript",
-                    "iconifyClass": "logos-javascript"
+                    "name": "GraphQL",
+                    "iconifyClass": "simple-icons:graphql"
                 },
                 {
-                    "name": "JavaScript",
-                    "iconifyClass": "logos-javascript"
+                    "name": "Solidity",
+                    "iconifyClass": "simple-icons:solidity"
+                },
+                {
+                    "name": "Nginx",
+                    "iconifyClass": "simple-icons:nginx"
                 }
             ]
         },
@@ -27,20 +32,29 @@
             "name": "Wavelength Website",
             "createdAt": "2022-10-03T11:53:55Z",
             "url": "https://app.wavelength.exchange/",
-            "description": "",
+            "description": "At the core of our project is a Decentralized Exchange (DEX) built on top of the Balancer V2 framework, which makes us the first next-generation Automated Market Maker (AMM) protocol on Velas!",
             "isFork": false,
             "languages": [
                 {
                     "name": "TypeScript",
-                    "iconifyClass": "logos-typescript"
+                    "iconifyClass": "simple-icons:typescript",
+                    "color": "#3178C6"
                 },
                 {
-                    "name": "CSS",
-                    "iconifyClass": "logos-css-3"
+                    "name": "GraphQL",
+                    "iconifyClass": "simple-icons:graphql"
                 },
                 {
-                    "name": "JavaScript",
-                    "iconifyClass": "logos-javascript"
+                    "name": "Solidity",
+                    "iconifyClass": "simple-icons:solidity"
+                },
+                {
+                    "name": "Vercel",
+                    "iconifyClass": "simple-icons:vercel"
+                },
+                {
+                    "name": "Docker",
+                    "iconifyClass": "simple-icons:docker"
                 }
             ]
         },
@@ -49,12 +63,25 @@
             "name": "ChimpySwap Website",
             "createdAt": "2020-06-19T14:24:55Z",
             "url": "https://chimpyswap.com",
-            "description": "Chatbot which helps you to get important statistics from the data to get insights to build Machine learning, Deep learning and Statistical models",
+            "description": "At the core of our project is a Decentralized Exchange (DEX) built on top of the Balancer V2 framework, which makes us the first next-generation Automated Market Maker (AMM) protocol on Velas!",
             "isFork": false,
             "languages": [
                 {
-                    "name": "Python",
-                    "iconifyClass": "logos-python"
+                    "name": "TypeScript",
+                    "iconifyClass": "simple-icons:typescript",
+                    "color": "#3178C6"
+                },
+                {
+                    "name": "GraphQL",
+                    "iconifyClass": "simple-icons:graphql"
+                },
+                {
+                    "name": "Solidity",
+                    "iconifyClass": "simple-icons:solidity"
+                },
+                {
+                    "name": "Nginx",
+                    "iconifyClass": "simple-icons:nginx"
                 }
             ]
         },
@@ -63,16 +90,25 @@
             "name": "Scarab Finance Website",
             "createdAt": "2018-11-03T05:00:56Z",
             "url": "https://scarab.finance",
-            "description": "This Project is predicting stocks for 32 companies with error less than 1% using LSTM Networks.",
+            "description": "The $SCARAB algorithmic token serves as the backbone of a rapidly growing ecosystem aimed towards bringing liquidity and new use cases to the Fantom Opera Mainnet.",
             "isFork": false,
             "languages": [
                 {
-                    "name": "Python",
-                    "iconifyClass": "logos-python"
+                    "name": "TypeScript",
+                    "iconifyClass": "simple-icons:typescript",
+                    "color": "#3178C6"
                 },
                 {
-                    "name": "Jupyter Notebook",
-                    "iconifyClass": "logos-jupyter"
+                    "name": "GraphQL",
+                    "iconifyClass": "simple-icons:graphql"
+                },
+                {
+                    "name": "Solidity",
+                    "iconifyClass": "simple-icons:solidity"
+                },
+                {
+                    "name": "Vercel",
+                    "iconifyClass": "simple-icons:vercel"
                 }
             ]
         },
@@ -81,12 +117,28 @@
             "name": "FoodTrucksFactory Website",
             "createdAt": "2019-08-13T13:13:00Z",
             "url": "https://foodtrucksfactory.pt",
-            "description": "This Project is to create a tool which can parse the Resumes and transform them into our own templates",
+            "description": "Food Trucks Factory is a Portuguese brand created in 2018, being a pioneer in the European Food Trucks market, which includes the transformation of the iconic Piaggio Ape.",
             "isFork": false,
             "languages": [
                 {
-                    "name": "Python",
-                    "iconifyClass": "logos-python"
+                    "name": "WordPress",
+                    "iconifyClass": "simple-icons:wordpress"
+                },
+                {
+                    "name": "CSS3",
+                    "iconifyClass": "simple-icons:css3"
+                },
+                {
+                    "name": "MySQL",
+                    "iconifyClass": "simple-icons:mysql"
+                },
+                {
+                    "name": "HTML5",
+                    "iconifyClass": "simple-icons:html5"
+                },
+                {
+                    "name": "Nginx",
+                    "iconifyClass": "simple-icons:nginx"
                 }
             ]
         },
@@ -99,8 +151,21 @@
             "isFork": false,
             "languages": [
                 {
-                    "name": "C#",
-                    "iconifyClass": "logos-c-sharp"
+                    "name": "JavaScript",
+                    "iconifyClass": "simple-icons:javascript",
+                    "color": "#3178C6"
+                },
+                {
+                    "name": "GraphQL",
+                    "iconifyClass": "simple-icons:graphql"
+                },
+                {
+                    "name": "Solidity",
+                    "iconifyClass": "simple-icons:solidity"
+                },
+                {
+                    "name": "Vercel",
+                    "iconifyClass": "simple-icons:vercel"
                 }
             ]
         }

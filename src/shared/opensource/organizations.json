@@ -2,22 +2,22 @@
     "data": [
         {
             "login": "ChimpySwap",
-            "avatarUrl": "https://raw.githubusercontent.com/d3vs-xyz/assets/main/images/chimpyswap.png",
+            "avatarUrl": "https://raw.githubusercontent.com/D3vs-xyz/assets/main/images/chimpyswap.png",
             "__typename": "Organization"
         },
         {
             "login": "Scarab Finance",
-            "avatarUrl": "https://raw.githubusercontent.com/d3vs-xyz/assets/main/images/scarab.png",
+            "avatarUrl": "https://raw.githubusercontent.com/D3vs-xyz/assets/main/images/scarab.png",
             "__typename": "Organization"
         },
         {
             "login": "FoodTrucksFactory",
-            "avatarUrl": "https://raw.githubusercontent.com/d3vs-xyz/assets/main/images/foodtrucksfactory.png",
+            "avatarUrl": "https://raw.githubusercontent.com/D3vs-xyz/assets/main/images/foodtrucksfactory.png",
             "__typename": "Organization"
         },
         {
             "login": "Avadex",
-            "avatarUrl": "https://raw.githubusercontent.com/d3vs-xyz/assets/main/images/avadex.png",
+            "avatarUrl": "https://raw.githubusercontent.com/D3vs-xyz/assets/main/images/avadex.png",
             "__typename": "Organization"
         },
         {
@@ -27,12 +27,12 @@
         },
         {
             "login": "Arerarium Fi",
-            "avatarUrl": "https://raw.githubusercontent.com/d3vs-xyz/assets/main/images/arerarium.png",
+            "avatarUrl": "https://raw.githubusercontent.com/D3vs-xyz/assets/main/images/arerarium.png",
             "__typename": "Organization"
         },
         {
             "login": "TFM Dex Aggregator",
-            "avatarUrl": "https://raw.githubusercontent.com/d3vs-xyz/assets/main/images/tfm.png",
+            "avatarUrl": "https://raw.githubusercontent.com/D3vs-xyz/assets/main/images/tfm.png",
             "__typename": "Organization"
         }
     ]
