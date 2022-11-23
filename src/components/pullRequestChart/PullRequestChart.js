@@ -7,19 +7,18 @@ import PullRequestData from "../../shared/opensource/pull_requests.json";
 class PullRequestChart extends Component {
   render() {
     const data = {
-      labels: ["Web2", "Web3", "Digital Marketing", "Ecommerce Development", "Auditing"],
+      labels: ["Web2", "Web3", "Digital Marketing", "Ecommerce Development", "Server Managment"],
       datasets: [
         {
           data: [
-            PullRequestData["open"],
-            PullRequestData["merged"],
-            PullRequestData["closed"],
+            PullRequestData["web2"],
+            PullRequestData["web3"],
             PullRequestData["digitalMarketing"],
             PullRequestData["ecommerceDev"],
-            PullRequestData["auditing"]
+            PullRequestData["serverManagment"]
           ],
-          backgroundColor: ["#28a745", "#6f42c1", "#d73a49", "#fcfc59", "#1190b3", "#42c45b"],
-          hoverBackgroundColor: ["#28a745dd", "#6f42c1dd", "#d73a49dd", "#fcfc59dd", "#1190b3dd","#42c45bdd"],
+          backgroundColor: ["#28a745", "#6f42c1", "#d73a49", "#fcfc59", "#1190b3"],
+          hoverBackgroundColor: ["#28a745dd", "#6f42c1dd", "#d73a49dd", "#fcfc59dd", "#1190b3dd"],
         },
       ],
     };

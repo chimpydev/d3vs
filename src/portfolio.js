@@ -136,7 +136,7 @@ const skills = {
   data: [
     {
       title: "Web2 Development",
-      fileName: "DataScienceImg",
+      fileName: "Web2",
       skills: [
         "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
         "⚡ Experience of working with Computer Vision and NLP projects",
@@ -157,14 +157,6 @@ const skills = {
           style: {
             backgroundColor: "transparent",
             color: "#7AB55C",
-          },
-        },
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "ion-logo-wordpress",
-          style: {
-            backgroundColor: "transparent",
-            color: "#0675c4",
           },
         },
         {
@@ -190,11 +182,39 @@ const skills = {
             color: "#F7DF1E",
           },
         },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCA28",
+          },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "Flutter",
+          fontAwesomeClassname: "simple-icons:flutter",
+          style: {
+            color: "#02569B",
+          },
+        }
       ],
     },
     {
       title: "Ecommerce Development",
-      fileName: "FullStackImg",
+      fileName: "ecommerce",
       skills: [
         "⚡ Build a platform tailored to your needs or modify existing solutions to scale your business. We’ll provide you with UX design, A/B tests, and more.",
         "⚡ Offer multiple products from multiple sellers. Give your buyers a one-stop-shop to buy everything they need and expand the platform fast.",
@@ -206,6 +226,14 @@ const skills = {
           fontAwesomeClassname: "simple-icons:html5",
           style: {
             color: "#E34F26",
+          },
+        },
+        {
+          skillName: "PrestaShop",
+          fontAwesomeClassname: "simple-icons:prestashop",
+          style: {
+            backgroundColor: "transparent",
+            color: "#DF0067",
           },
         },
         {
@@ -239,11 +267,25 @@ const skills = {
             color: "#0675c4",
           },
         },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#4479A1",
+          },
+        },
+        {
+          skillName: "SQLite",
+          fontAwesomeClassname: "simple-icons:sqlite",
+          style: {
+            color: "#003B57",
+          },
+        },
       ],
     },
     {
       title: "Web3 Development",
-      fileName: "CloudInfraImg",
+      fileName: "web3",
       skills: [
         "⚡ Our experience with small screens comes in handy in a world where the majority of web traffic is on mobile.",
         "⚡ Our web team builds responsive sites that elegantly work across desktop and mobile, leveraging the same robust backend services we use for our apps.",
@@ -252,45 +294,45 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
+          skillName: "Typescript",
+          fontAwesomeClassname: "simple-icons:typescript",
           style: {
-            color: "#4285F4",
+            color: "#3178C6",
           },
         },
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "Graphql",
+          fontAwesomeClassname: "simple-icons:graphql",
           style: {
-            color: "#FF9900",
+            color: "#E10098",
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
+          skillName: "Solidity",
+          fontAwesomeClassname: "simple-icons:solidity",
           style: {
-            color: "#0089D6",
+            color: "#363636",
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "Vercel",
+          fontAwesomeClassname: "simple-icons:vercel",
           style: {
-            color: "#FFCA28",
+            color: "#FFFFFF",
           },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "Apollo GraphQL",
+          fontAwesomeClassname: "simple-icons:apollographql",
           style: {
-            color: "#336791",
+            color: "#311C87",
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
           style: {
-            color: "#47A248",
+            color: "#F7DF1E",
           },
         },
         {
@@ -301,17 +343,17 @@ const skills = {
           },
         },
         {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
+          skillName: "Vyper",
+          fontAwesomeClassname: "simple-icons:vuetify",
           style: {
-            color: "#326CE5",
+            color: "#FFFFFF",
           },
         },
       ],
     },
     {
       title: "Digital Marketing",
-      fileName: "DesignImg",
+      fileName: "digital",
       skills: [
         "⚡ Become the fastest growing brand in the market leveraging SEO strategies that generate leads and grow your business.",
         "⚡ Dominate the competitive digital world by beginning your SEM campaigns that help to rank high in the pertinent SERPs.",
@@ -340,12 +382,86 @@ const skills = {
           },
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          skillName: "HootSuite",
+          fontAwesomeClassname: "simple-icons:hootsuite",
           style: {
-            color: "#000000",
+            color: "#FFFFFF",
           },
         },
+        {
+          skillName: "Canva",
+          fontAwesomeClassname: "simple-icons:canva",
+          style: {
+            color: "#00C4CC",
+          },
+        },
+        {
+          skillName: "Photoshop",
+          fontAwesomeClassname: "simple-icons:adobephotoshop",
+          style: {
+            color: "#31A8FF",
+          },
+        },
+        {
+          skillName: "Notion",
+          fontAwesomeClassname: "simple-icons:notion",
+          style: {
+            color: "#FFFFFF",
+          },
+        }
+      ],
+    },
+    {
+      title: "Server Managment",
+      fileName: "server",
+      skills: [
+        "⚡ Become the fastest growing brand in the market leveraging SEO strategies that generate leads and grow your business.",
+        "⚡ Dominate the competitive digital world by beginning your SEM campaigns that help to rank high in the pertinent SERPs.",
+        "⚡ Elevate your brand recognition by managing your online reputation resulting in good business insigh.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Nginx",
+          fontAwesomeClassname: "simple-icons:nginx",
+          style: {
+            color: "#FF2BC2",
+          },
+        },
+        {
+          skillName: "Apache",
+          fontAwesomeClassname: "simple-icons:apache",
+          style: {
+            color: "#F24E1E",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "GCP",
+          fontAwesomeClassname: "simple-icons:googlecloud",
+          style: {
+            color: "#4285F4",
+          },
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Azure",
+          fontAwesomeClassname: "simple-icons:microsoftazure",
+          style: {
+            color: "#0089D6",
+          },
+        }
       ],
     },
   ],

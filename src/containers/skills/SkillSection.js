@@ -4,19 +4,32 @@ import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import DataScienceImg from "./DataScienceImg";
-import Web2Development from "../../assests/images/web2development.svg";
+import Web2Development from "../../assests/images/website-development.svg";
+import Default from "../../assests/images/web2development.svg"
+import ServerManagment from "../../assests/images/work-risk-free.svg";
+import Digital from "../../assests/images/visual-collaboration.svg";
+import Web3Development from "../../assests/images/tell-us.svg"
+import Ecommerce from "../../assests/images/online-shopping.svg"
+
+
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
 
 function GetSkillSvg(props) {
-  if (props.fileName === "DataScienceImg")
-    return <DataScienceImg theme={props.theme} />;
-  else if (props.fileName === "FullStackImg")
-    return <DataScienceImg theme={props.theme} />;
-  else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
-  return <DesignImg theme={props.theme} />;
+  if (props.fileName === "Web2")
+    return <img width="100%" height="100%" src={Web2Development} />;
+  else if (props.fileName === "ecommerce")
+  return <img width="100%" height="100%" src={Ecommerce} />;
+  else if (props.fileName === "web3")
+  return <img width="100%" height="100%" src={Web3Development} />;
+  else if (props.fileName === "digital")
+    return <img width="100%" height="100%" src={Digital} />;
+  else if (props.fileName === "server")
+    return <img width="100%" height="100%" src={ServerManagment} />;
+  else
+    return <img width="100%" height="100%" src={Default} />;
+
 }
 
 class SkillSection extends Component {
