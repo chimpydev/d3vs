@@ -123,6 +123,12 @@ const socialMediaLinksMummy = [
     link: "https://t.me/mummy565",
     fontAwesomeIcon: "fa-telegram", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  },
+  {
+    name: "Twitter",
+    link: "https://twitter.com/MummyIsPoor",
+    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
+    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   }
 ];
 
@@ -170,9 +176,9 @@ const skills = {
       title: "UI/UX",
       fileName: "Web2",
       skills: [
-        "👨‍💻 Modern, customized UI designs to distinguish your web application from your competitors.",
-        "👨‍💻 A focus on smooth UX and expertly crafted user flow your community will love.",
-        "👨‍💻 Take your branding to the next level with on-point consistent messaging throughout your website.",
+        "- Modern, customized UI designs to distinguish your web application from your competitors.",
+        "- A focus on smooth UX and expertly crafted user flow your community will love.",
+        "- Take your branding to the next level with on-point consistent messaging throughout your website.",
       ],
       softwareSkills: [
         {
@@ -248,9 +254,9 @@ const skills = {
       title: "Web3 Development",
       fileName: "web3",
       skills: [
-        "👨‍💻 Build and maintain complex systems tailored to our client's needs, focusing on security and gas efficiency.",
-        "👨‍💻 Extensive experience in development in all significant product offerings of Defi Ecosystems",
-        "👨‍💻 Methodical comprehensive unit, system, and product testing utilizing the latest technologies with a motto of excellence and on-time delivery.",
+        "- Build and maintain complex systems tailored to our client's needs, focusing on security and gas efficiency.",
+        "- Extensive experience in development in all significant product offerings of Defi Ecosystems",
+        "- Methodical comprehensive unit, system, and product testing utilizing the latest technologies with a motto of excellence and on-time delivery.",
       ],
       softwareSkills: [
         {
@@ -315,9 +321,9 @@ const skills = {
       title: "DeFi Consulting",
       fileName: "digital",
       skills: [
-        "👨‍💻 Extensive experience in designing, validating, and planning the development of complex systems to support you in launching quality products tailored to your client's needs, which fit the current market.",
-        "👨‍💻 Focused Tokenomics support using proprietary tools to design sustainable, user-friendly tokenomics models while ensuring viability through sell pressure simulations based on a wide range of scenarios.",
-        "👨‍💻 Highly qualified team on professional project launches, ready to consult on your launch sequence to maximize opportunities.",
+        "- Extensive experience in designing, validating, and planning the development of complex systems to support you in launching quality products tailored to your client's needs, which fit the current market.",
+        "- Focused Tokenomics support using proprietary tools to design sustainable, user-friendly tokenomics models while ensuring viability through sell pressure simulations based on a wide range of scenarios.",
+        "- Highly qualified team on professional project launches, ready to consult on your launch sequence to maximize opportunities.",
       ],
       softwareSkills: [
         {
@@ -375,9 +381,9 @@ const skills = {
       title: "Server Managment",
       fileName: "server",
       skills: [
-        "👨‍💻 Become the fastest growing brand in the market leveraging SEO strategies that generate leads and grow your business.",
-        "👨‍💻 Dominate the competitive digital world by beginning your SEM campaigns that help to rank high in the pertinent SERPs.",
-        "👨‍💻 Elevate your brand recognition by managing your online reputation resulting in good business insigh.",
+        "- Become the fastest growing brand in the market leveraging SEO strategies that generate leads and grow your business.",
+        "- Dominate the competitive digital world by beginning your SEM campaigns that help to rank high in the pertinent SERPs.",
+        "- Elevate your brand recognition by managing your online reputation resulting in good business insight.",
       ],
       softwareSkills: [
         {
@@ -482,9 +488,9 @@ const degrees = {
       alt_name: "IIITDM Kurnool",
       duration: "2016 - Present",
       descriptions: [
-        "👨‍💻 I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "👨‍💻 Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "👨‍💻 I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "- I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "- Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        "- I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
       website_link: "http://iiitk.ac.in",
     },
@@ -748,6 +754,7 @@ export {
   socialMediaLinksKell,
   socialMediaLinksTuts,
   socialMediaLinksMummy,
+  socialMediaLinks,
   skills,
   competitiveSites,
   degrees,
