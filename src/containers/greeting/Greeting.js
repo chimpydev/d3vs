@@ -24,7 +24,7 @@ export default function Greeting(props) {
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText, marginTop: "-10px"}}
               >
-                Web2, web3 and mobile application development
+                Web3 development
               </p>
               <div className="portfolio-repo-btn-div">
                 <Button

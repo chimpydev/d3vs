@@ -96,6 +96,38 @@ const socialMediaLinksKell = [
   }
 ];
 
+const socialMediaLinksMummy = [
+  /* Your Social Media Link */
+  // github: "https://github.com/ashutosh1919",
+  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+  // gmail: "ashutoshhathidara98@gmail.com",
+  // gitlab: "https://gitlab.com/ashutoshhathidara98",
+  // facebook: "https://www.facebook.com/laymanbrother.19/",
+  // twitter: "https://twitter.com/ashutosh_1919",
+  // instagram: "https://www.instagram.com/layman_brother/"
+
+  {
+    name: "Github",
+    link: "https://github.com/clay565",
+    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  },
+  {
+    name: "Gmail",
+    link: "mailto:mummy@D3vs.xyz.com",
+    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  },
+  {
+    name: "Telegram",
+    link: "https://t.me/mummy565",
+    fontAwesomeIcon: "fa-telegram", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  }
+];
+
+
+
 const socialMediaLinksTuts = [
   /* Your Social Media Link */
   // github: "https://github.com/ashutosh1919",
@@ -135,12 +167,12 @@ const socialMediaLinksTuts = [
 const skills = {
   data: [
     {
-      title: "Web2 Development",
+      title: "UI/UX",
       fileName: "Web2",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "👨‍💻 Modern, customized UI designs to distinguish your web application from your competitors.",
+        "👨‍💻 A focus on smooth UX and expertly crafted user flow your community will love.",
+        "👨‍💻 Take your branding to the next level with on-point consistent messaging throughout your website.",
       ],
       softwareSkills: [
         {
@@ -213,84 +245,12 @@ const skills = {
       ],
     },
     {
-      title: "Ecommerce Development",
-      fileName: "ecommerce",
-      skills: [
-        "⚡ Build a platform tailored to your needs or modify existing solutions to scale your business. We’ll provide you with UX design, A/B tests, and more.",
-        "⚡ Offer multiple products from multiple sellers. Give your buyers a one-stop-shop to buy everything they need and expand the platform fast.",
-        "⚡ We’ll help you build a scalable, secure platform that will guide your buyer through a seamless purchasing process.",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "PrestaShop",
-          fontAwesomeClassname: "simple-icons:prestashop",
-          style: {
-            backgroundColor: "transparent",
-            color: "#DF0067",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "Shopify",
-          fontAwesomeClassname: "simple-icons:shopify",
-          style: {
-            backgroundColor: "transparent",
-            color: "#7AB55C",
-          },
-        },
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "ion-logo-wordpress",
-          style: {
-            backgroundColor: "transparent",
-            color: "#0675c4",
-          },
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
-        {
-          skillName: "SQLite",
-          fontAwesomeClassname: "simple-icons:sqlite",
-          style: {
-            color: "#003B57",
-          },
-        },
-      ],
-    },
-    {
       title: "Web3 Development",
       fileName: "web3",
       skills: [
-        "⚡ Our experience with small screens comes in handy in a world where the majority of web traffic is on mobile.",
-        "⚡ Our web team builds responsive sites that elegantly work across desktop and mobile, leveraging the same robust backend services we use for our apps.",
-        "⚡ We build and audit smart contracts, facilitate fast and secure crypto payments and enable oracles.",
-        "⚡ We create visual identities and develop secure no-cms solutions.l",
+        "👨‍💻 Build and maintain complex systems tailored to our client's needs, focusing on security and gas efficiency.",
+        "👨‍💻 Extensive experience in development in all significant product offerings of Defi Ecosystems",
+        "👨‍💻 Methodical comprehensive unit, system, and product testing utilizing the latest technologies with a motto of excellence and on-time delivery.",
       ],
       softwareSkills: [
         {
@@ -352,12 +312,12 @@ const skills = {
       ],
     },
     {
-      title: "Digital Marketing",
+      title: "DeFi Consulting",
       fileName: "digital",
       skills: [
-        "⚡ Become the fastest growing brand in the market leveraging SEO strategies that generate leads and grow your business.",
-        "⚡ Dominate the competitive digital world by beginning your SEM campaigns that help to rank high in the pertinent SERPs.",
-        "⚡ Elevate your brand recognition by managing your online reputation resulting in good business insigh.",
+        "👨‍💻 Extensive experience in designing, validating, and planning the development of complex systems to support you in launching quality products tailored to your client's needs, which fit the current market.",
+        "👨‍💻 Focused Tokenomics support using proprietary tools to design sustainable, user-friendly tokenomics models while ensuring viability through sell pressure simulations based on a wide range of scenarios.",
+        "👨‍💻 Highly qualified team on professional project launches, ready to consult on your launch sequence to maximize opportunities.",
       ],
       softwareSkills: [
         {
@@ -415,9 +375,9 @@ const skills = {
       title: "Server Managment",
       fileName: "server",
       skills: [
-        "⚡ Become the fastest growing brand in the market leveraging SEO strategies that generate leads and grow your business.",
-        "⚡ Dominate the competitive digital world by beginning your SEM campaigns that help to rank high in the pertinent SERPs.",
-        "⚡ Elevate your brand recognition by managing your online reputation resulting in good business insigh.",
+        "👨‍💻 Become the fastest growing brand in the market leveraging SEO strategies that generate leads and grow your business.",
+        "👨‍💻 Dominate the competitive digital world by beginning your SEM campaigns that help to rank high in the pertinent SERPs.",
+        "👨‍💻 Elevate your brand recognition by managing your online reputation resulting in good business insigh.",
       ],
       softwareSkills: [
         {
@@ -522,9 +482,9 @@ const degrees = {
       alt_name: "IIITDM Kurnool",
       duration: "2016 - Present",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "👨‍💻 I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "👨‍💻 Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        "👨‍💻 I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
       website_link: "http://iiitk.ac.in",
     },
@@ -742,6 +702,12 @@ const contactPageData = {
     description:
       "Proficient in software development and specializing in digital asset smart contracts. Co-founded and was appointed CEO in 2 different Web3 Projects with a combined TVL at peak of $29M. During which time, Bernardo accumulated a wealth of experience within the Web3 environment and spear-headed campaigns focused on scalable, flexible solutions.",
   },
+  contactSectionMummy: {
+    title: "Mummy",
+    profile_image_path: "Mummy.png",
+    description:
+      "Talanted project manager and experienced in marketing with some knowledge of software development and security testing. Apointed Chief financial officer at a project with 28M TVL at peak and was managing over 1.5M in assets during which time accumulated contacts with already stablished projects. Experience in the crypto world since 2017.",
+  },
   contactSectionKellKell: {
     title: "Kell",
     profile_image_path: "tuts.png",
@@ -781,6 +747,7 @@ export {
   socialMediaLinksFarao,
   socialMediaLinksKell,
   socialMediaLinksTuts,
+  socialMediaLinksMummy,
   skills,
   competitiveSites,
   degrees,

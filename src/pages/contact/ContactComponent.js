@@ -5,6 +5,7 @@ import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import SocialMedia2 from "../../components/socialMedia/SocialMedia2";
 import SocialMedia3 from "../../components/socialMedia/SocialMedia3";
+import SocialMedia4 from "../../components/socialMedia/SocialMedia4";
 import Button from "../../components/button/Button";
 import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
@@ -13,6 +14,7 @@ import { greeting, contactPageData } from "../../portfolio.js";
 
 const ContactDataPharaoh = contactPageData.contactSectionPharaoh;
 const ContactDataKellKell = contactPageData.contactSectionKellKell;
+const ContactDataMummy = contactPageData.contactSectionMummy;
 const ContactDataTuts = contactPageData.contactSectionTuts;
 
 const blogSection = contactPageData.blogSection;
@@ -128,6 +130,41 @@ class Contact extends Component {
                     theme={theme}
                   />
     </div> */}
+              </div>
+            </div>
+          </Fade>
+
+          {/* Mummy SECTION */}
+          <Fade bottom duration={1000} distance="40px">
+            <div className="contact-heading-div">
+            <div className="contact-heading-text-div">
+                <h1
+                  className="contact-heading-text"
+                  style={{ color: "#FFFFFF" }}
+                >
+                  {ContactDataMummy["title"]}
+                </h1>
+                <p
+                  className="contact-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  {ContactDataMummy["description"]}
+                </p>
+                <SocialMedia4 theme={theme} />
+                {/* <div className="resume-btn-div">
+                  <Button
+                    text="See My Resume"
+                    newTab={true}
+                    href={greeting.resumeLink}
+                    theme={theme}
+                  />
+    </div> */}
+              </div>
+              <div className="contact-heading-img-div">
+                <img
+                  src={require(`../../assests/images/${ContactDataMummy["profile_image_path"]}`)}
+                  alt=""
+                />
               </div>
             </div>
           </Fade>
