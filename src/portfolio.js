@@ -8,8 +8,7 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "D3vs - Web Development Services",
-  description:
-    "Web3, Web2, Digital Marketing, Auditing",
+  description: "Web3, Web2, Digital Marketing, Auditing",
   og: {
     title: "D3vs - Web Development Services",
     type: "website",
@@ -63,7 +62,7 @@ const socialMediaLinksFarao = [
     link: "https://t.me/Bernardo_Defi_Biz_Dev",
     fontAwesomeIcon: "fa-telegram", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  }
+  },
 ];
 
 const socialMediaLinksKell = [
@@ -93,7 +92,7 @@ const socialMediaLinksKell = [
     link: "https://t.me/yourmasterdev",
     fontAwesomeIcon: "fa-telegram", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  }
+  },
 ];
 
 const socialMediaLinksMummy = [
@@ -129,10 +128,8 @@ const socialMediaLinksMummy = [
     link: "https://twitter.com/MummyIsPoor",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  }
+  },
 ];
-
-
 
 const socialMediaLinksTuts = [
   /* Your Social Media Link */
@@ -167,7 +164,7 @@ const socialMediaLinksTuts = [
     link: "https://t.me/chimpy_dev",
     fontAwesomeIcon: "fa-telegram", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  }
+  },
 ];
 
 const skills = {
@@ -186,7 +183,7 @@ const skills = {
           fontAwesomeClassname: "simple-icons:css3",
           style: {
             backgroundColor: "transparent",
-            color: "#1572B6"
+            color: "#1572B6",
           },
         },
         {
@@ -202,7 +199,7 @@ const skills = {
           fontAwesomeClassname: "logos-react",
           style: {
             color: "#61dbfb",
-            backgroundColor: "transparent"
+            backgroundColor: "transparent",
           },
         },
         {
@@ -247,7 +244,7 @@ const skills = {
           style: {
             color: "#02569B",
           },
-        }
+        },
       ],
     },
     {
@@ -374,7 +371,7 @@ const skills = {
           style: {
             color: "#FFFFFF",
           },
-        }
+        },
       ],
     },
     {
@@ -427,7 +424,7 @@ const skills = {
           style: {
             color: "#0089D6",
           },
-        }
+        },
       ],
     },
   ],
@@ -498,8 +495,7 @@ const degrees = {
 };
 
 const certifications = {
-  certifications: [
-  ],
+  certifications: [],
 };
 
 // Experience Page
@@ -650,8 +646,7 @@ const projectsHeader = {
 
 const publicationsHeader = {
   title: "Articles",
-  description:
-    "Some of the articles we've written for our clients",
+  description: "Some of the articles we've written for our clients",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -661,7 +656,8 @@ const publications = {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       name: "Introducing — Wavelength",
       createdAt: "2022-10-15T16:26:54Z",
-      description: "Announcing Wavelength, the most advanced Decentralized Exchange (DEX) on Velas Blockchain.",
+      description:
+        "Announcing Wavelength, the most advanced Decentralized Exchange (DEX) on Velas Blockchain.",
       url:
         "https://medium.com/@Wavelength_DAO/introducing-wavelength-63c3622853d3",
     },
@@ -669,7 +665,8 @@ const publications = {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
       name: "ChimpySwap Airdrop/ICO First 10 Days Recap",
       createdAt: "2020-07-06T16:26:54Z",
-      description: "Wow! It’s been a crazy 10 days 🤯 We’ve seen tons of chimpies, and more airdrops than we can count!",
+      description:
+        "Wow! It’s been a crazy 10 days 🤯 We’ve seen tons of chimpies, and more airdrops than we can count!",
       url:
         "https://medium.com/@chimpyswap/chimpyswap-airdrop-ico-first-10-days-recap-10044b19ffd7",
     },
@@ -677,7 +674,8 @@ const publications = {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
       name: "ChimpySwap Updates and Roadmap!",
       createdAt: "2021-08-07T16:26:54Z",
-      description: "It doesn’t seem like it but it’s been a month since we started airdrop/ico.",
+      description:
+        "It doesn’t seem like it but it’s been a month since we started airdrop/ico.",
       url:
         "https://medium.com/@chimpyswap/chimpyswap-updates-and-roadmap-e4f5a661e2ed",
     },
@@ -685,7 +683,8 @@ const publications = {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
       name: "Wavelength Explained: Smart Order Router (SOR)",
       createdAt: "2022-11-17T16:26:54Z",
-      description: "Welcome to another episode of our educational series “Wavelength Explained”.",
+      description:
+        "Welcome to another episode of our educational series “Wavelength Explained”.",
       url:
         "https://medium.com/@Wavelength_DAO/wavelength-explained-smart-order-router-sor-6f94a828f3b6",
     },
@@ -693,7 +692,8 @@ const publications = {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
       name: "Wavelength Explained: Weighted Pools",
       createdAt: "2022-11-11T16:26:54Z",
-      description: "Welcome to our second learning session; previously, we have learned about Stable Pools.",
+      description:
+        "Welcome to our second learning session; previously, we have learned about Stable Pools.",
       url:
         "https://medium.com/@Wavelength_DAO/wavelength-explained-weighted-pools-18179bbcc352",
     },
@@ -735,8 +735,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Estrada da Luz 135, Benfica, Laranjeiras, Lisboa, Portugal",
+    subtitle: "Estrada da Luz 135, Benfica, Laranjeiras, Lisboa, Portugal",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
   },
@@ -754,7 +753,6 @@ export {
   socialMediaLinksKell,
   socialMediaLinksTuts,
   socialMediaLinksMummy,
-  socialMediaLinks,
   skills,
   competitiveSites,
   degrees,
