@@ -47,7 +47,7 @@ const socialMediaLinksFarao = [
   },
   {
     name: "Gmail",
-    link: "mailto:bernardo@D3vs.xyz",
+    link: "mailto:bernardo@devs.xyz",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -83,7 +83,7 @@ const socialMediaLinksKell = [
   },
   {
     name: "Gmail",
-    link: "mailto:kell@D3vs.xyz.com",
+    link: "mailto:kell@devs.xyz.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -113,7 +113,7 @@ const socialMediaLinksMummy = [
   },
   {
     name: "Gmail",
-    link: "mailto:mummy@D3vs.xyz.com",
+    link: "mailto:mummy@devs.xyz.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -149,7 +149,7 @@ const socialMediaLinksTuts = [
   },
   {
     name: "Gmail",
-    link: "mailto:tuts@D3vs.xyz",
+    link: "mailto:tuts@devs.xyz",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -162,6 +162,42 @@ const socialMediaLinksTuts = [
   {
     name: "Telegram",
     link: "https://t.me/chimpy_dev",
+    fontAwesomeIcon: "fa-telegram", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  },
+];
+
+const socialMediaLinksHeldex = [
+  /* Your Social Media Link */
+  // github: "https://github.com/ashutosh1919",
+  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+  // gmail: "ashutoshhathidara98@gmail.com",
+  // gitlab: "https://gitlab.com/ashutoshhathidara98",
+  // facebook: "https://www.facebook.com/laymanbrother.19/",
+  // twitter: "https://twitter.com/ashutosh_1919",
+  // instagram: "https://www.instagram.com/layman_brother/"
+
+  {
+    name: "Github",
+    link: "https://github.com/H3ldex",
+    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  },
+  {
+    name: "Gmail",
+    link: "mailto:heldex@devs.xyz",
+    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  },
+  {
+    name: "Twitter",
+    link: "https://twitter.com/H3lD3x",
+    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
+    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+  },
+  {
+    name: "Telegram",
+    link: "https://t.me/H3lD3X",
     fontAwesomeIcon: "fa-telegram", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
@@ -726,6 +762,12 @@ const contactPageData = {
     description:
       "Experienced full-stack developer of 8 years and proficient in: JavaScript, TypeScript, React, Solidity, GraphQL. Took a leading role in building scaleable, innovative decentralized solutions with a commitment to quality modern application designs.",
   },
+  contactSectionHeldex: {
+    title: "H3ldex",
+    profile_image_path: "heldex.png",
+    description:
+      "A talented community manager and designer, competent to manage multiple projects and work teams simultaneously, his sharp style for art makes him one of the most irreverent in the space, and his speed in getting the job done makes him unrivaled. With several projects under his management, he earned experience and knowledge within the Web3 environment. Experience in the crypto world since 2019.",
+  },
   blogSection: {
     title: "Blogs",
     subtitle:
@@ -735,7 +777,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Estrada da Luz 135, Benfica, Laranjeiras, Lisboa, Portugal",
+    subtitle: "São Paulo, Brazil",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
   },
@@ -753,6 +795,7 @@ export {
   socialMediaLinksKell,
   socialMediaLinksTuts,
   socialMediaLinksMummy,
+  socialMediaLinksHeldex,
   skills,
   competitiveSites,
   degrees,

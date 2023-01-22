@@ -1,39 +1,39 @@
 {
-    "data": [
-        {
-            "login": "ChimpySwap",
-            "avatarUrl": "https://raw.githubusercontent.com/D3vs-xyz/assets/main/images/chimpyswap.png",
-            "__typename": "Organization"
-        },
-        {
-            "login": "Scarab Finance",
-            "avatarUrl": "https://raw.githubusercontent.com/D3vs-xyz/assets/main/images/scarab.png",
-            "__typename": "Organization"
-        },
-        {
-            "login": "FoodTrucksFactory",
-            "avatarUrl": "https://raw.githubusercontent.com/D3vs-xyz/assets/main/images/foodtrucksfactory.png",
-            "__typename": "Organization"
-        },
-        {
-            "login": "Avadex",
-            "avatarUrl": "https://raw.githubusercontent.com/D3vs-xyz/assets/main/images/avadex.png",
-            "__typename": "Organization"
-        },
-        {
-            "login": "WaveLength",
-            "avatarUrl": "https://raw.githubusercontent.com/wavelength-velas/assets/main/generated/WAVElogo.png",
-            "__typename": "Organization"
-        },
-        {
-            "login": "Arerarium Fi",
-            "avatarUrl": "https://raw.githubusercontent.com/D3vs-xyz/assets/main/images/arerarium.png",
-            "__typename": "Organization"
-        },
-        {
-            "login": "TFM Dex Aggregator",
-            "avatarUrl": "https://raw.githubusercontent.com/D3vs-xyz/assets/main/images/tfm.png",
-            "__typename": "Organization"
-        }
-    ]
+  "data": [
+    {
+      "login": "ChimpySwap",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/85179880?s=200&v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Scarab Finance",
+      "avatarUrl": "https://assets.coingecko.com/coins/images/22033/large/scarab-logo.d6fea1b1.png?1640659016",
+      "__typename": "Organization"
+    },
+    {
+      "login": "FoodTrucksFactory",
+      "avatarUrl": "https://foodtrucksfactory.pt/wp-content/uploads/2021/09/logo-foodtrucks.png",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Avadex",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/106383518?s=200&v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "WaveLength",
+      "avatarUrl": "https://raw.githubusercontent.com/wavelength-velas/assets/main/generated/WAVElogo.png",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Arerarium Fi",
+      "avatarUrl": "https://dapp.aerariumfi.com/static/media/logo.1c63a187.png",
+      "__typename": "Organization"
+    },
+    {
+      "login": "TFM Dex Aggregator",
+      "avatarUrl": "https://miro.medium.com/max/2400/1*H0EiwGiIytDHAt39szhBkw.png",
+      "__typename": "Organization"
+    }
+  ]
 }
